@@ -13,6 +13,6 @@ class Anagram
 end 
   
 listen = Anagram.new("listen")
-puts "listen".split.sort.join
-puts "inlets".split.sort.join
+puts "listen".split
+puts "inlets".split
 puts listen.match(%w(enlists google inlets banana))
