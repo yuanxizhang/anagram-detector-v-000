@@ -13,6 +13,4 @@ class Anagram
 end 
   
 listen = Anagram.new("listen")
-puts "listen".split("")
-puts "inlets".split("")
 puts listen.match(%w(enlists google inlets banana))
